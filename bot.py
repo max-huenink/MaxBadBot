@@ -25,7 +25,7 @@ while True:
              screen_name = name['screen_name']
              tweet = result['text']
              id = result['id']
-             if id not in viewed:
+             if screen_name == 'maxh76' id not in viewed:
                  print(tweet)
                  viewed.append(id)
                  messages = ["max bad!", "max bad.", "max bad?", "max bad!"]
